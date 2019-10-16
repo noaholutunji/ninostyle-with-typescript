@@ -32464,7 +32464,7 @@ var ADD_QUANTITY = 'ADD_QUANTITY';
 
 /***/ }),
 
-/***/ 12:
+/***/ 10:
 /*!********************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Fcart&absolutePagePath=%2Fhome%2Fnoah%2FDesktop%2Fninostyle-next-typescript%2Fpages%2Fcart.tsx ***!
   \********************************************************************************************************************************************/
@@ -32487,5 +32487,5 @@ module.exports = dll_6b5a3ee2368b61971f52;
 
 /***/ })
 
-},[[12,"static/runtime/webpack.js"]]]);
+},[[10,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=cart.js.map
