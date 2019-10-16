@@ -4,8 +4,6 @@ import PropTypes from 'prop-types';
 import Router from 'next/router';
 import cookie from 'js-cookie';
 import { connect } from 'react-redux';
-import { Navbar } from '../../components/Navbar/Navbar';
-import Footer from '../../components/Footer/Footer';
 import { login } from '../../store/actions/authActions';
 import {
   MDBContainer,
@@ -48,8 +46,7 @@ export const Login = props => {
 
   return (
     <>
-      <Navbar />
-      <MDBContainer>
+      <MDBContainer className="pb-5">
         <MDBRow className="justify-content-center">
           <MDBCol md="6">
             <MDBCard className="mt-5">
@@ -88,7 +85,6 @@ export const Login = props => {
           </MDBCol>
         </MDBRow>
       </MDBContainer>
-      <Footer />
     </>
   );
 };

@@ -106,7 +106,9 @@ export const Navbar = props => {
     <MDBNavbar color="indigo" dark expand="md">
       <MDBNavbarBrand>
         <Link href="/">
-          <strong className="white-text">NinoStyle</strong>
+          <a>
+            <strong className="white-text">NinoStyle</strong>
+          </a>
         </Link>
       </MDBNavbarBrand>
       <MDBNavbarToggler onClick={toggleCollapse} />

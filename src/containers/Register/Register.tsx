@@ -2,8 +2,6 @@ import React, { useState, SyntheticEvent } from 'react';
 import PropTypes from 'prop-types';
 import Router from 'next/router';
 import cookie from 'js-cookie';
-import { Navbar } from '../../components/Navbar/Navbar';
-import Footer from '../../components/Footer/Footer';
 
 import {
   MDBContainer,
@@ -66,7 +64,6 @@ const Register = (props: {
 
   return (
     <>
-      <Navbar />
       <MDBContainer>
         <MDBRow className="justify-content-center mt-5">
           <MDBCol md="6">
@@ -140,7 +137,6 @@ const Register = (props: {
           </MDBCol>
         </MDBRow>
       </MDBContainer>
-      <Footer />
     </>
   );
 };

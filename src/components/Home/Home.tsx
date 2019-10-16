@@ -3,8 +3,6 @@ import React, { useState, useEffect } from 'react';
 // import 'bootstrap-css-only/css/bootstrap.min.css';
 // import 'mdbreact/dist/css/mdb.css';
 import axios from '../../axios-orders';
-import Footer from '../../components/Footer/Footer';
-import { Navbar } from '../Navbar/Navbar';
 import TableImg from './Table';
 import {
   MDBCarousel,
@@ -43,7 +41,6 @@ const Home = props => {
 
   return (
     <>
-      <Navbar />
       <MDBContainer className="d-flex justify-content-center mb-3">
         <MDBCarousel
           activeItem={1}
@@ -117,7 +114,6 @@ const Home = props => {
         <h3>Latest Products</h3>
         <MDBRow className="mt-3">{tabRow()}</MDBRow>
       </MDBContainer>
-      <Footer />
     </>
   );
 };

@@ -1,8 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import axios from '../../axios-orders';
 import Body from './Body/Body';
-import Navbar from '../Navbar/Navbar';
-import Footer from '../../components/Footer/Footer';
 import Link from 'next/link';
 import cookie from 'js-cookie';
 import { MDBJumbotron, MDBBtn, MDBContainer, MDBRow, MDBCol } from 'mdbreact';
@@ -45,7 +43,6 @@ const Products = props => {
 
   return (
     <>
-      <Navbar />
       <MDBContainer className="mt-3 text-center">
         <MDBRow>
           <MDBCol>
@@ -64,7 +61,6 @@ const Products = props => {
 
         <MDBRow>{tabRow()}</MDBRow>
       </MDBContainer>
-      <Footer />
     </>
   );
 };

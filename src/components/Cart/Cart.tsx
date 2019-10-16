@@ -175,8 +175,7 @@ export const Cart = (props: IntProps) => {
 
   return cart.addedItems.length > 0 ? (
     <>
-      <Navbar />
-      <MDBRow className="my-2 ml-3 mr-1" center>
+      <MDBRow className="my-2 ml-3 mr-1 mb-5" center>
         <MDBCol xs="6" md="12">
           <MDBCard className="w-100">
             <MDBCardBody>
@@ -204,15 +203,14 @@ export const Cart = (props: IntProps) => {
           </div>
         </MDBCol>
       </MDBRow>
-      <Footer />
     </>
   ) : (
     <>
-      <Navbar />
       <p className="text-center my-5">
-        <strong>Your cart is empty!!!</strong>
+        <h5>
+          <strong>Your cart is empty!</strong>
+        </h5>
       </p>
-      <Footer />
     </>
   );
 };

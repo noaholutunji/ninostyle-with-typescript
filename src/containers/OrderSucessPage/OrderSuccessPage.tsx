@@ -1,12 +1,9 @@
 import React from 'react';
-import Navbar from '../../components/Navbar/Navbar';
-import Footer from '../../components/Footer/Footer';
 import { MDBBtn, MDBCard, MDBCardBody, MDBCol } from 'mdbreact';
 
 const OrderSuccess = () => {
   return (
     <>
-      <Navbar />
       <div className="container my-5 justify-content-center">
         <MDBCol>
           <MDBCard style={{ width: '30rem' }}>
@@ -17,7 +14,6 @@ const OrderSuccess = () => {
           </MDBCard>
         </MDBCol>
       </div>
-      <Footer />
     </>
   );
 };

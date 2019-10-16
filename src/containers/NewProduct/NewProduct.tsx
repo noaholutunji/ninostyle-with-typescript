@@ -2,7 +2,6 @@ import React, { useState, SyntheticEvent } from 'react';
 import { connect } from 'react-redux';
 import { createProduct } from '../../store/actions/productActions';
 import PropTypes from 'prop-types';
-import { Navbar } from '../../components/Navbar/Navbar';
 import Router from 'next/router';
 import Footer from '../../components/Footer/Footer';
 // import { Redirect } from 'react-router-dom';
@@ -60,7 +59,6 @@ const NewProduct = props => {
 
   return (
     <>
-      <Navbar />
       <MDBContainer>
         <MDBRow className="justify-content-center mt-5">
           <MDBCol md="6">
