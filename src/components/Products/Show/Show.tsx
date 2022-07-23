@@ -4,8 +4,6 @@ import { MDBCard, MDBRow } from 'mdbreact';
 import Table from './Table/Table';
 import cookie from 'js-cookie';
 import { useRouter } from 'next/router';
-import Navbar from '../../Navbar/Navbar';
-import Footer from '../../Footer/Footer';
 
 export interface IUser {
   _id: string;
@@ -62,7 +60,6 @@ const Products = (props: any) => {
 
   return (
     <>
-      <Navbar />
       <div className="mt-5 container">
         <MDBRow className="justify-content-center">
           <MDBCard
@@ -75,7 +72,6 @@ const Products = (props: any) => {
           </MDBCard>
         </MDBRow>
       </div>
-      <Footer />
     </>
   );
 };
